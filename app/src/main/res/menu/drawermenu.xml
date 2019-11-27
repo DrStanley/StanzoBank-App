@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Customer Actions">
+        <menu>
+            <item
+                android:id="@+id/prof"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="Profile" />
+            <item
+                android:id="@+id/depo"
+                android:icon="@drawable/ic_forward_black_24dp"
+                android:title="Deposit" />
+            <item
+                android:id="@+id/with"
+                android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+                android:title="Withdraw" />
+            <item
+                android:id="@+id/balance"
+                android:icon="@drawable/ic_account_balance_black_24dp"
+                android:title="Balance" />
+            <item
+                android:id="@+id/trans"
+                android:icon="@drawable/ic_swap_horiz_black_24dp"
+                android:title="Transfer" />
+            <item
+                android:id="@+id/his"
+                android:icon="@drawable/ic_trending_up_black_24dp"
+                android:title="History" />
+
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/action_settings" />
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout_app_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+    <item android:title="Contact US">
+        <item
+            android:id="@+id/feed"
+            android:icon="@drawable/ic_headset_mic_black_24dp"
+            android:title="FeedBack" />
+        <item
+            android:id="@+id/hot"
+            android:icon="@drawable/ic_phone_in_talk_black_24dp"
+            android:title="Hotline" />
+        <item
+            android:id="@+id/hep"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Help" />
+    </item>
+
+</menu>
